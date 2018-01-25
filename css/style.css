@@ -1,0 +1,39 @@
+
+/*Utility Class*/
+.row {
+  display: flex;
+}
+
+.col{
+  flex: 1;
+}
+
+/*Percentages(ish)*/
+._25{
+  flex: 2.5;
+}
+
+._50 {
+  flex: 5;
+}
+
+._75 {
+  flex: 7.5;
+}
+
+/*Styling Classes*/
+.tile {
+  background-color: white;
+  height: 400px;
+  margin:10px;
+}
+
+.sidebar{
+  background-color: gray;
+  height: 100vh;
+}
+
+.main-content {
+   background-color: black;
+}
+
